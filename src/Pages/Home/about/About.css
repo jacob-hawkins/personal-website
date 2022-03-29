@@ -1,0 +1,87 @@
+#upper {
+    margin-top: 10vh;
+    height: 80vh;
+    width: 100%;
+}
+
+#top {
+    display: block;
+    font-size: 100px;
+    text-align: center;
+    transform: translateX(100%);
+    animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+#title1 {
+    font-size: 14vw;
+    font-family: 'Times New Roman', serif;
+    text-align: left;
+}
+
+#upper h4 {
+    padding-left: 10px;
+}
+
+#upper span {
+    color: #FF8200;
+}
+
+#skills {
+    display: flex;
+    background-color: #2197A9;
+    color: black;
+    height: 800px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skills h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 5vw;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.skills-flex {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.skills-flex div {
+    background-color: #4cbbcd;
+    width: 33vw;
+    height: 500px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 20px black;
+}
+
+.skills-flex div h3 {
+    margin-top: 20px;
+    font-size: 2.5vw;
+}
+
+.skills-flex div hr {
+    margin-top: 20px;
+}
+
+.skills-flex div p {
+    margin: 10px;
+    text-align: left;
+    font-size: 2vw;
+}

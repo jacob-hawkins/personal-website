@@ -1,0 +1,88 @@
+:root {
+	--line-animation: 2.5s;
+}
+
+#title {
+	text-align: center;
+}
+
+#title h1 {
+	margin-top: 30vh;
+	font-size: 5em;
+	font-family: 'Pacifico', cursive;
+	color: transparent;
+	background-image: linear-gradient(to right, #e74c3c , #f1c40f,#3498db, #9b59b6);
+	background-size: 400% 400%;
+	background-clip: text;
+	animation: animatedBackground 8s ease infinite;
+}
+
+@keyframes animatedBackground {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+hr {
+	border: 1px white solid;
+	margin: auto;
+	margin-top: 10vh;
+}
+
+.lines {
+	display: block;
+	z-index: 1;
+}
+
+#first {
+	width: 20%;
+	animation: lines var(--line-animation) infinite;
+}
+
+#second {
+	width: 30%;
+	animation: lines var(--line-animation) infinite;
+	animation-delay: 0.2s;
+}
+
+#third {
+	width: 40%;
+	animation: lines var(--line-animation) infinite;
+	animation-delay: 0.4s;
+}
+
+#fourth {
+	width: 50%;
+	animation: lines var(--line-animation) infinite;
+	animation-delay: 0.6s;
+}
+
+#fifth {
+	width: 60%;
+	animation: lines var(--line-animation) infinite;
+	animation-delay: 0.8s;
+}
+
+#sixth {
+	width: 70%;
+	animation: lines var(--line-animation) infinite;
+	animation-delay: 1s;
+}
+
+@keyframes lines {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 100%;
+	}
+	100% {
+		opacity: 0;
+	}
+}
