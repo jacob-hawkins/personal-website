@@ -9,12 +9,12 @@ function Main() {
             </div>
 
             <div className="lines">
-                <hr id="first" />
-                <hr id="second" />
-                <hr id="third" />
-                <hr id="fourth" />
-                <hr id="fifth" />
-                <hr id="sixth" />
+                <hr className="main-hr" id="first" />
+                <hr className="main-hr" id="second" />
+                <hr className="main-hr" id="third" />
+                <hr className="main-hr" id="fourth" />
+                <hr className="main-hr" id="fifth" />
+                <hr className="main-hr" id="sixth" />
             </div>
         </>
     )

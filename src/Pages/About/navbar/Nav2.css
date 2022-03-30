@@ -1,23 +1,19 @@
 #fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	margin: auto;
 	width: 100%;
-	background-color: none;
+    background-color: var(--main-color);
 	padding-bottom: 15px;
 }
 
 #navbar {
 	display: inline;
-	font-size: 1em;
+	font-size: 30px;
 }
 
-.nav-list {
+.nav-list2 {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	margin-top: 5vh;
+	padding-top: 5vh;
 }
 
 .nav-item2 {
@@ -45,7 +41,7 @@
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #16a085;
+	background-color: var(--accent-color);
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 }

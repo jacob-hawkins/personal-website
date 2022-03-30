@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
 
+:root {
+    --main-color: #ecf0f1;
+    --accent-color: #16a085;
+}
+
 * {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -10,3 +15,7 @@ body {
     background-color: black;
     color: white;
 }
+
+html {
+    scroll-behavior: smooth;
+  }

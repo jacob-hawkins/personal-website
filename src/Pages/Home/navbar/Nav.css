@@ -1,6 +1,6 @@
-div {
+.nav-div {
     display: inline;
-    font-size: 1.25em;
+    font-size: 30px;
 }
 
 .nav-list {
