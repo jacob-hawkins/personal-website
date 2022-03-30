@@ -29,7 +29,7 @@ function About() {
                     <div data-aos="fade-up">
                         <h3>Javascript & React</h3>
                         <hr />
-                        <p>I am beginning the proccess of learning the React Framework and becoming more used to the javascript language. This site is fully built in the React Framework.</p>
+                        <p>I am learning JavaScript as well as the quirks of the React Framework. This site was fully built using the React Framework.</p>
                     </div>
 
                     <div data-aos="fade-left">
