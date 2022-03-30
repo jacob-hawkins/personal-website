@@ -13,9 +13,9 @@ function Contact() {
 
 
             <div id="contact-grid">
-                <a href="https://github.com/jacob-hawkins" target="blank" alt="github" className="contact-link"><img src={github} className="contact-img"></img></a>
-                <a href="https://www.linkedin.com/in/jacob-hawkins-94306721a/" target="blank" alt="linkedin" className="contact-link"><img src={linkedin} className="contact-img"></img></a>
-                <a href="mailto: jhawki41@vols.utk.edu" alt="email" className="contact-link"><img src={email} style={{ width: 'auto', height: '75px' }}></img></a>
+                <a href="https://github.com/jacob-hawkins" target="blank" className="contact-link"><img src={github} alt="github" className="contact-img"></img></a>
+                <a href="https://www.linkedin.com/in/jacob-hawkins-94306721a/" target="blank" className="contact-link"><img src={linkedin} alt="linkedin" className="contact-img"></img></a>
+                <a href="mailto: jhawki41@vols.utk.edu" className="contact-link"><img src={email} alt="email" style={{ width: 'auto', height: '75px' }}></img></a>
             </div>
 
 
