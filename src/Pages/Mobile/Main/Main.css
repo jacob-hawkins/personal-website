@@ -111,7 +111,7 @@
     display: flex;
     background-color: #2197A9;
     color: black;
-    height: 100vh;
+	padding-bottom: 50px;
     margin-top: 20vh;
     align-items: center;
     flex-direction: column;
@@ -119,10 +119,10 @@
 
 #mobile-skills h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 15vw;
+    font-size: 12vw;
     padding-top: 30px;
     text-align: center;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .mobile-skills-flex {

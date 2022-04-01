@@ -22,7 +22,7 @@ function Resume() {
 
                 <div className="mobile-resume-grid">
                     <div className="mobile-resume-subheading-block">
-                        <h4 className="mobile-resume-subheading">The University of Tennessee, Knoxville, <span style={{ color: 'grey', 'font-style': 'italic' }} >Tickle College of Engineering</span></h4>
+                        <h4 className="mobile-resume-subheading">The University of Tennessee, Knoxville, <span style={{ color: 'grey', fontStyle: 'italic' }} >Tickle College of Engineering</span></h4>
                         <h4 className="mobile-resume-subtitles"><span className="italics">Bachelor of Science</span></h4>
                         <h4 className="mobile-resume-subtitles">Major: <span className="italics">Computer Science</span></h4>
                         <h4 className="mobile-resume-subtitles">Involvement: <span className="italics">UTK Roundnet Club, UTK WebDev</span></h4>
@@ -90,7 +90,7 @@ function Resume() {
                     </ul>
                 </div>
 
-                <h4 style={{ 'font-size': '3vw', 'padding-left': '3vw', 'margin-top': '40px' }}>Relative Skills: C++, HTML5, CSS3, JavaScript, MIPS Assembly</h4>
+                <h4 style={{ fontSize: '3vw', paddingLeft: '3vw', marginTop: '40px' }}>Relative Skills: C++, HTML5, CSS3, JavaScript, MIPS Assembly</h4>
 
                 <div style={{ display: 'block', height: '50px', width: '100%' }}></div>
 
@@ -127,7 +127,7 @@ function Resume() {
 
                 <div className="mobile-resume-grid">
                     <div className="mobile-resume-subheading-block">
-                        <h4 className="mobile-resume-subheading">CIW Advanced HTML5 and CSS3 Specialist - <span style={{ color: 'grey', 'font-style': 'italic' }} >Certification Partners (CIW)</span></h4>
+                        <h4 className="mobile-resume-subheading">CIW Advanced HTML5 and CSS3 Specialist - <span style={{ color: 'grey', fontStyle: 'italic' }} >Certification Partners (CIW)</span></h4>
                     </div>
                     <div className="mobile-resume-dates">
                         <h5>April 2020</h5>
@@ -142,8 +142,8 @@ function Resume() {
                 <h3 className="mobile-resume-headings">Honors & Awards</h3>
                 <hr className="mobile-resume-hr" />
 
-                <h4 style={{ 'font-size': '3vw', 'padding-left': '3vw', 'margin-top': '30px' }}>Volunteer Scholarship – <span style={{ color: 'grey', 'font-style': 'italic' }} >University of Tennessee Knoxville</span></h4>
-                <h4 style={{ 'font-size': '3vw', 'padding-left': '3vw', 'margin-top': '10px' }}>Grand Cooke Honors Program –<span style={{ color: 'grey', 'font-style': 'italic' }} >University of Tennessee Knoxville</span></h4>
+                <h4 style={{ fontSize: '3vw', paddingLeft: '3vw', marginTop: '30px' }}>Volunteer Scholarship – <span style={{ color: 'grey', fontStyle: 'italic' }} >University of Tennessee Knoxville</span></h4>
+                <h4 style={{ fontSize: '3vw', paddingLeft: '3vw', marginTop: '10px' }}>Grand Cooke Honors Program –<span style={{ color: 'grey', fontStyle: 'italic' }} >University of Tennessee Knoxville</span></h4>
 
 
                 <div style={{ display: 'block', height: '100px', width: '100%' }}></div>

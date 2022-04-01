@@ -5,8 +5,6 @@ import About from './Pages/About/Index';
 import Mobile from './Pages/Mobile/Index';
 
 function App() {
-	console.log(window.innerWidth);
-
 	if (window.innerWidth <= 640) {
 		return (
 			<Mobile />
