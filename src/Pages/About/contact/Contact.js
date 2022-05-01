@@ -1,10 +1,19 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link';
 import github from './Photos/github.png'
 import linkedin from './Photos/linkedin.png'
 import email from './Photos/email.png'
 import './Contact.css'
 
 function Contact() {
+    const ScrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+
+
     return (
 
         <div id="contact">
@@ -18,10 +27,14 @@ function Contact() {
                 <a href="mailto: jhawki41@vols.utk.edu" className="contact-link"><img src={email} alt="email" style={{ width: 'auto', height: '75px' }}></img></a>
             </div>
 
+            <div id="back-links">
+                <p onClick={ScrollToTop}>back to top</p>
+                <Link to="/">back to home</Link>
+            </div>
 
 
 
-        </div >
+        </div>
     )
 }
 

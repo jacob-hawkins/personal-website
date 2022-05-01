@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import Aos from 'aos';
 import './About.css';
 import 'aos/dist/aos.css';
@@ -37,6 +38,10 @@ function About() {
                         <hr />
                         <p>As a computer science major at UT, all the CS curriculum is taught in C++. I have expierence in low level memory and bit manipulation as well as the standard temperate library.</p>
                     </div>
+                </div>
+
+                <div id="about-link">
+                    <Link to="/about">about me page</Link>
                 </div>
             </section>
         </>

@@ -15,7 +15,7 @@ function Resume() {
 
             <div className="resume-grid">
                 <div className="resume-subheading-block">
-                    <h4 className="resume-subheading">The University of Tennessee, Knoxville, <span style={{ color: 'grey', 'font-style': 'italic' }} >Tickle College of Engineering</span></h4>
+                    <h4 className="resume-subheading">The University of Tennessee, Knoxville, <span style={{ color: 'grey', fontStyle: 'italic' }} >Tickle College of Engineering</span></h4>
                     <h4 className="resume-subtitles"><span className="italics">Bachelor of Science</span></h4>
                     <h4 className="resume-subtitles">Major: <span className="italics">Computer Science</span></h4>
                     <h4 className="resume-subtitles">Involvement: <span className="italics">UTK Roundnet Club, UTK WebDev</span></h4>
@@ -83,7 +83,7 @@ function Resume() {
                 </ul>
             </div>
 
-            <h4 style={{ 'font-size': '1.5vw', 'padding-left': '50px', 'margin-top': '50px' }}>Relevant Skills: C++, HTML5, CSS3, JavaScript, MIPS Assembly</h4>
+            <h4 style={{ fontSize: '1.5vw', paddingLeft: '50px', marginTop: '50px' }}>Relevant Skills: C++, HTML5, CSS3, JavaScript, MIPS Assembly</h4>
 
             <div style={{ display: 'block', height: '100px', width: '100%' }}></div>
 
@@ -120,7 +120,7 @@ function Resume() {
 
             <div className="resume-grid">
                 <div className="resume-subheading-block">
-                    <h4 className="resume-subheading">CIW Advanced HTML5 and CSS3 Specialist - <span style={{ color: 'grey', 'font-style': 'italic' }} >Certification Partners (CIW)</span></h4>
+                    <h4 className="resume-subheading">CIW Advanced HTML5 and CSS3 Specialist - <span style={{ color: 'grey', fontStyle: 'italic' }} >Certification Partners (CIW)</span></h4>
                 </div>
                 <div className="resume-dates">
                     <h5>April 2020</h5>
@@ -135,8 +135,8 @@ function Resume() {
             <h3 className="resume-headings">Honors & Awards</h3>
             <hr className="resume-hr" />
 
-            <h4 style={{ 'font-size': '2vw', 'padding-left': '50px', 'margin-top': '30px' }}>Volunteer Scholarship – <span style={{ color: 'grey', 'font-style': 'italic' }} >University of Tennessee Knoxville</span></h4>
-            <h4 style={{ 'font-size': '2vw', 'padding-left': '50px', 'margin-top': '10px' }}>Grand Cooke Honors Program –<span style={{ color: 'grey', 'font-style': 'italic' }} >University of Tennessee Knoxville</span></h4>
+            <h4 style={{ fontSize: '2vw', paddingLeft: '50px', marginTop: '30px' }}>Volunteer Scholarship – <span style={{ color: 'grey', fontStyle: 'italic' }} >University of Tennessee Knoxville</span></h4>
+            <h4 style={{ fontSize: '2vw', paddingLeft: '50px', marginTop: '10px' }}>Grand Cooke Honors Program –<span style={{ color: 'grey', fontStyle: 'italic' }} >University of Tennessee Knoxville</span></h4>
 
 
             <div style={{ display: 'block', height: '200px', width: '100%' }}></div>

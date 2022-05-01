@@ -36,3 +36,24 @@
 .contact-link:hover {
     filter: invert(49%) sepia(15%) saturate(3172%) hue-rotate(125deg) brightness(94%) contrast(83%);
 }
+
+#back-links {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#back-links a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+#back-links a:hover {
+    color: var(--accent-color);
+}
+
+#back-links p:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
