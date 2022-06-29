@@ -48,6 +48,39 @@ function Resume() {
 
             <div className="resume-grid">
                 <div className="resume-subheading-block">
+                    <h4 className="resume-subheading">Knox County Schools, Farragut Middle School</h4>
+                    <h4 className="resume-subtitles"><span className="italics">Summer Bridge Program Tutor</span></h4>
+                </div>
+                <div className="resume-dates">
+                    <h5>Knoxville, Tennessee</h5>
+                    <h5>June 2022</h5>
+                </div>
+            </div>
+            <div className="resume-job-description">
+                <ul>
+                    <li> A one-month summer school program in which I tutored small groups of students, reinforcing math concepts at a rising <br /> 6th, 7th, and 8th-grade level.</li>
+                </ul>
+            </div>
+
+            <div className="resume-grid">
+                <div className="resume-subheading-block">
+                    <h4 className="resume-subheading">VolShop</h4>
+                    <h4 className="resume-subtitles"><span className="italics">Order Fulfillment Associate</span></h4>
+                </div>
+                <div className="resume-dates">
+                    <h5>Knoxville, Tennessee</h5>
+                    <h5>January 2022 – May 2022</h5>
+                </div>
+            </div>
+            <div className="resume-job-description">
+                <ul>
+                    <li>Responsible for the finding of items and fulfilling of online orders from the physical store location.</li>
+                    <li>Packaging and organizing orders for faster and more efficient processing to allow quicker order turn around.</li>
+                </ul>
+            </div>
+
+            <div className="resume-grid">
+                <div className="resume-subheading-block">
                     <h4 className="resume-subheading">TJ Maxx</h4>
                     <h4 className="resume-subtitles"><span className="italics">Retail Associate</span></h4>
                 </div>
@@ -58,32 +91,14 @@ function Resume() {
             </div>
             <div className="resume-job-description">
                 <ul>
-                    <li>Responsible for and assisted in the operation of the Men’s, Kid’s and Home department making sure it was well organized and clean.</li>
-                    <li>Assisted in the processing and putting out of furniture and luggage.</li>
+                    <li>Responsible for the organization and cleanliness of the Men’s, Kid’s and Home departments.</li>
+                    <li>Processed and staged furniture and luggage.</li>
                     <li>Provided a fast and efficient checkout experience as a cashier.</li>
                     <li>Maintained a consistent customer experience through the COVID-19 pandemic.</li>
                 </ul>
             </div>
 
-
-            <div className="resume-grid">
-                <div className="resume-subheading-block">
-                    <h4 className="resume-subheading">VolShop</h4>
-                    <h4 className="resume-subtitles"><span className="italics">Order Fulfillment Associate</span></h4>
-                </div>
-                <div className="resume-dates">
-                    <h5>Knoxville, Tennessee</h5>
-                    <h5>January 2022 – Current</h5>
-                </div>
-            </div>
-            <div className="resume-job-description">
-                <ul>
-                    <li>Responsible for the finding of items and fulfilling of online orders from the physical store location.</li>
-                    <li>Packaging and organizing orders for faster and more efficient processing to allow quicker order turn around.</li>
-                </ul>
-            </div>
-
-            <h4 style={{ fontSize: '1.5vw', paddingLeft: '50px', marginTop: '50px' }}>Relevant Skills: C++, HTML5, CSS3, JavaScript, MIPS Assembly</h4>
+            <h4 style={{ fontSize: '1.5vw', paddingLeft: '50px', marginTop: '50px' }}>Relevant Skills: C++, HTML5, CSS3, JavaScript, React, MIPS Assembly</h4>
 
             <div style={{ display: 'block', height: '100px', width: '100%' }}></div>
 

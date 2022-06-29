@@ -26,7 +26,7 @@
 
 .mobile-resume-grid {
     display: grid;
-    grid-auto-columns: 70% 30%;
+    grid-auto-columns: 50% 50%;
     margin-top: 30px;
     grid-row-gap: 50px;
 }
