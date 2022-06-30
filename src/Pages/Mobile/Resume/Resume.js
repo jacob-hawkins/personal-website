@@ -20,29 +20,21 @@ function Resume() {
                 <h3 className="mobile-resume-headings">Education</h3>
                 <hr className="mobile-resume-hr" />
 
-                <div className="mobile-resume-grid">
-                    <div className="mobile-resume-subheading-block">
-                        <h4 className="mobile-resume-subheading">The University of Tennessee, Knoxville, <span style={{ color: 'grey', fontStyle: 'italic' }} >Tickle College of Engineering</span></h4>
-                        <h4 className="mobile-resume-subtitles"><span className="italics">Bachelor of Science</span></h4>
-                        <h4 className="mobile-resume-subtitles">Major: <span className="italics">Computer Science</span></h4>
-                        <h4 className="mobile-resume-subtitles">Involvement: <span className="italics">UTK Roundnet Club, UTK WebDev</span></h4>
-                    </div>
-                    <div className="mobile-resume-dates">
-                        <h5>Knoxville, Tennessee</h5>
-                        <h5>Graduation: May 2024</h5>
-                    </div>
+                {/* <div className="mobile-resume-grid"> */}
+                <div className="mobile-edu-subheading-block">
+                    <h4 className="mobile-resume-subheading">The University of Tennessee, Knoxville <span style={{ color: 'grey', fontStyle: 'italic' }} ><br />Tickle College of Engineering</span></h4>
+                    <h4 className="mobile-resume-subtitles"><span className="italics">Bachelor of Science</span></h4>
+                    <h4 className="mobile-resume-edu-description">Major: <span className="italics">Computer Science</span></h4>
+                    <h4 className="mobile-resume-edu-description">Graduation: <span className="italics">May 2024</span></h4>
+                    <h4 className="mobile-resume-edu-description">Involvement: <span className="italics">UTK Roundnet Club, UTK WebDev</span></h4>
+                </div>
 
-
-                    <div className="mobile-resume-subheading-block">
-                        <h4 className="mobile-resume-subheading">Bearden High School</h4>
-                        <h4 className="mobile-resume-subtitles"><span className="italics">High School Diploma</span></h4>
-                        <h4 className="mobile-resume-subtitles">Cumulative GPA:  <span className="italics">4.30 / 4.0</span></h4>
-                        <h4 className="mobile-resume-subtitles">ACT: 32</h4>
-                    </div>
-                    <div className="mobile-resume-dates">
-                        <h5>Knoxville, Tennessee</h5>
-                        <h5>Graduation: May 2020</h5>
-                    </div>
+                <div className="mobile-edu-subheading-block">
+                    <h4 className="mobile-resume-subheading">Bearden High School</h4>
+                    <h4 className="mobile-resume-subtitles"><span className="italics">High School Diploma</span></h4>
+                    <h4 className="mobile-resume-edu-description">Graduation: <span className="italics">May 2020</span></h4>
+                    <h4 className="mobile-resume-edu-description">Cumulative GPA:  <span className="italics">4.30 / 4.0</span></h4>
+                    <h4 className="mobile-resume-edu-description">ACT: 32</h4>
                 </div>
 
                 <div style={{ display: 'block', height: '50px', width: '100%' }}></div>
@@ -54,7 +46,7 @@ function Resume() {
                 <hr className="mobile-resume-hr" />
 
                 <div className="mobile-resume-grid">
-                    <div className="mobile-resume-subheading-block">
+                    <div>
                         <h4 className="mobile-resume-subheading">Knox County Schools</h4>
                         <h4 className="mobile-resume-subtitles"><span className="italics">Summer Bridge Program Tutor</span></h4>
                     </div>
@@ -70,7 +62,7 @@ function Resume() {
                 </div>
 
                 <div className="mobile-resume-grid">
-                    <div className="mobile-resume-subheading-block">
+                    <div>
                         <h4 className="mobile-resume-subheading">VolShop</h4>
                         <h4 className="mobile-resume-subtitles"><span className="italics">Order Fulfillment Associate</span></h4>
                     </div>
@@ -87,7 +79,7 @@ function Resume() {
                 </div>
 
                 <div className="mobile-resume-grid">
-                    <div className="mobile-resume-subheading-block">
+                    <div>
                         <h4 className="mobile-resume-subheading">TJ Maxx</h4>
                         <h4 className="mobile-resume-subtitles"><span className="italics">Retail Associate</span></h4>
                     </div>
@@ -118,7 +110,7 @@ function Resume() {
                 <hr className="mobile-resume-hr" />
 
                 <div className="mobile-resume-grid">
-                    <div className="mobile-resume-subheading-block">
+                    <div>
                         <h4 className="mobile-resume-subheading">Carolina Mountain Mission</h4>
                     </div>
                     <div className="mobile-resume-dates">
@@ -141,14 +133,11 @@ function Resume() {
                 <h3 className="mobile-resume-headings">Licenses & Certifications</h3>
                 <hr className="mobile-resume-hr" />
 
-                <div className="mobile-resume-grid">
-                    <div className="mobile-resume-subheading-block">
-                        <h4 className="mobile-resume-subheading">CIW Advanced HTML5 and CSS3 Specialist - <span style={{ color: 'grey', fontStyle: 'italic' }} >Certification Partners (CIW)</span></h4>
-                    </div>
-                    <div className="mobile-resume-dates">
-                        <h5>April 2020</h5>
-                    </div>
+                <div>
+                    <h4 className="mobile-resume-subheading" style={{ marginTop: '15px' }}>CIW Advanced HTML5 and CSS3 Specialist <span style={{ color: 'grey', fontStyle: 'italic' }} >Certification Partners (CIW)</span></h4>
                 </div>
+
+                <h5 style={{ marginLeft: '3vw', marginTop: '5px' }}>Awarded: April 2020</h5>
 
                 <div style={{ display: 'block', height: '50px', width: '100%' }}></div>
 

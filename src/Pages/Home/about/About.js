@@ -36,7 +36,7 @@ function About() {
                     <div data-aos="fade-left">
                         <h3>C++</h3>
                         <hr />
-                        <p>As a computer science major at UT, all the CS curriculum is taught in C++. I have expierence in low level memory and bit manipulation as well as the standard temperate library.</p>
+                        <p>As a computer science major at UT, most of the CS curriculum is taught in C++. I have expierence in low level memory and bit manipulation as well as the standard temperate library.</p>
                     </div>
                 </div>
 
