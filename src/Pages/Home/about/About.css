@@ -1,45 +1,19 @@
-#upper {
-    margin-top: 10vh;
-    height: 80vh;
-    width: 100%;
-}
-
-#top {
-    display: block;
-    font-size: 100px;
-    text-align: center;
-    transform: translateX(100%);
-    animation: scrolling 10s linear infinite;
-}
-
 @keyframes scrolling {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-200%);
     }
 }
 
-#title1 {
-    font-size: 14vw;
-    font-family: 'Times New Roman', serif;
-    text-align: left;
-}
-
-#upper h4 {
-    padding-left: 10px;
-}
-
-#upper span {
-    color: #FF8200;
-}
-
 #skills {
     display: flex;
-    background-color: #2197A9;
-    color: black;
-    height: 110vh;
+    /* background-color: #2197A9; */
+    background-color: black;
+    color: #4cbbcd;
+    height: 100vh;
     width: 100%;
     align-items: center;
     flex-direction: column;
@@ -55,6 +29,7 @@
 
 .skills-flex {
     display: flex;
+    color: black;
     width: 80%;
     align-items: center;
     flex-direction: row;
@@ -63,12 +38,14 @@
 }
 
 .skills-flex div {
-    background-color: #4cbbcd;
+    background-color: black;
+    border: 2px solid #4cbbcd;
+    color: white;
     width: 33vw;
     height: 60vh;
     border-radius: 25px;
     text-align: center;
-    box-shadow: 5px 5px 20px black;
+    /* box-shadow: 5px 5px 20px black; */
 }
 
 .skills-flex div h3 {
@@ -111,7 +88,7 @@
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-  
+
 #about-link a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;

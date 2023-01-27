@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import Aos from 'aos';
 import './About.css';
 import 'aos/dist/aos.css';
@@ -11,13 +10,6 @@ function About() {
 
     return (
         <>
-            <section id="upper" data-aos="fade-in">
-                <h1 id="title1">My name is Jacob Hawkins.</h1>
-
-                <h4>I am a computer science student at the <span>University of Tennessee</span>.</h4>
-
-            </section>
-
             <section id="skills" data-aos="fade-in">
                 <h1 data-aos="fade-in">Skills</h1>
                 <div className="skills-flex">
@@ -38,10 +30,6 @@ function About() {
                         <hr />
                         <p>As a computer science major at UT, most of the CS curriculum is taught in C++. I have expierence in low level memory and bit manipulation as well as the standard temperate library.</p>
                     </div>
-                </div>
-
-                <div id="about-link">
-                    <Link to="/about">about me page</Link>
                 </div>
             </section>
         </>

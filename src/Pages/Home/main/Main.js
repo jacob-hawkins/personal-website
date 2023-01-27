@@ -1,12 +1,27 @@
 import React from 'react'
+import titleImage from './IMG_3698.JPG'
 import './Main.css';
 
 function Main() {
     return (
         <>
-            <div id="title">
-                <h1>hello</h1>
+            <div id="title-center-grid">
+                <div id="title-grid">
+                    <div>
+                        <div id="title">
+                            <h1 id="title-h1">Welcome</h1>
+                        </div>
+
+                        <h1 id="title-grid-h1">My name is Jacob Hawkins.</h1>
+                        <h3>
+                            I am a computer science major at the University of Tennessee. I am a part of the Grand Cooke Engineering    Honors Program and will soon be working with the upcoming web development club here at UT.
+                        </h3>
+                    </div>
+
+                    <img src={titleImage} />
+                </div>
             </div>
+            
 
             <div className="lines">
                 <hr className="main-hr" id="first" />
