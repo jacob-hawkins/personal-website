@@ -18,7 +18,7 @@ function Main() {
                         </h3>
                     </div>
 
-                    <img src={titleImage} />
+                    <img src={titleImage} alt="me" />
                 </div>
             </div>
             
