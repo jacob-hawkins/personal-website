@@ -106,7 +106,7 @@ function Resume() {
                     </ul>
                 </div>
 
-                <h4 style={{ fontSize: '1.5vw', paddingLeft: '50px', marginTop: '50px' }}>Relevant Skills: C++, HTML5, CSS3, JavaScript, React, MIPS Assembly</h4>
+                <h4 style={{ fontSize: '20px', paddingLeft: '50px', marginTop: '50px' }}>Relevant Skills: C++, HTML5, CSS3, JavaScript, React, MIPS Assembly</h4>
             </div>
 
             <div style={{ display: 'block', height: '100px', width: '100%' }}></div>

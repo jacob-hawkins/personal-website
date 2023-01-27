@@ -34,15 +34,15 @@
     align-items: center;
     flex-direction: row;
     align-items: stretch;
-    gap: 50px;
+    gap: 5vw;
 }
 
 .skills-flex div {
     background-color: black;
     border: 2px solid #4cbbcd;
     color: white;
-    width: 33vw;
-    height: 60vh;
+    width: 33%;
+    height: 100%;
     border-radius: 25px;
     text-align: center;
     /* box-shadow: 5px 5px 20px black; */
@@ -92,4 +92,17 @@
 #about-link a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media screen and (max-width: 900px) {
+    .skills-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .skills-flex div {
+        width: 75%;
+        height: 33%;
+    }
 }
