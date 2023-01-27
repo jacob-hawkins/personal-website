@@ -13,7 +13,8 @@
     /* background-color: #2197A9; */
     background-color: black;
     color: #4cbbcd;
-    height: 100vh;
+    /* height: 100vh; */
+    margin-bottom: 150px;
     width: 100%;
     align-items: center;
     flex-direction: column;
@@ -42,7 +43,7 @@
     border: 2px solid #4cbbcd;
     color: white;
     width: 33%;
-    height: 100%;
+    height: 500px;
     border-radius: 25px;
     text-align: center;
     /* box-shadow: 5px 5px 20px black; */
