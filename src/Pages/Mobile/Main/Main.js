@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import titleImage from './IMG_3698.JPG'
+import { ReactComponent as Logo } from './welcome.svg';
 import './Main.css'
 
 function Main() {
@@ -13,8 +15,26 @@ function Main() {
             <h1 id="mobile-nav">Jacob Hawkins</h1>
 
             {/* HELLO AND LINES */}
-            <div id="mobile-title">
+            {/* <div id="mobile-title">
                 <h1>hello</h1>
+            </div> */}
+
+            <div id="mobile-title-center-flex">
+                <div id="mobile-title-grid">
+                    <div>
+                        <img src={titleImage} alt="me" />
+                        
+                        <div id="mobile-title">
+                            {/* <h1 id="title-h1">Welcome</h1> */}
+                            <Logo id="mobile-welcome" />
+                        </div>
+
+                        <h1 id="mobile-title-grid-h1">My name is Jacob Hawkins.</h1>
+                        <h3>
+                            I am a computer science major at the University of Tennessee. I am a part of the Grand Cooke Engineering    Honors Program and will soon be working with the upcoming web development club here at UT.
+                        </h3>
+                    </div>
+                </div>
             </div>
 
             <div className="mobile-lines">
@@ -24,14 +44,6 @@ function Main() {
                 <hr className="mobile-main-hr" id="mobile-fourth" />
                 <hr className="mobile-main-hr" id="mobile-fifth" />
             </div>
-
-            {/* NAME */}
-            <section id="mobile-upper" data-aos="fade-in">
-                <h1 id="mobile-title1">My name is Jacob Hawkins.</h1>
-
-                <h4>I am a computer science student at the <span>University of Tennessee</span>.</h4>
-
-            </section>
 
             {/* SKILLS */}
             <section id="mobile-skills" data-aos="fade-in">

@@ -60,7 +60,7 @@ function Resume() {
                     </div>
                     <div className="resume-dates">
                         <h5>Knoxville, Tennessee</h5>
-                        <h5>February 2022 – Current</h5>
+                        <h5>February 2022 - Current</h5>
                     </div>
                 </div>
                 <div className="resume-job-description">
@@ -99,7 +99,7 @@ function Resume() {
                 </div>
                 <div className="resume-job-description">
                     <ul>
-                        <li>Responsible for the organization and cleanliness of the Men’s, Kid’s and Home departments.</li>
+                        <li>Responsible for the organization and cleanliness of the Men's, Kid's and Home departments.</li>
                         <li>Processed and staged furniture and luggage.</li>
                         <li>Provided a fast and efficient checkout experience as a cashier.</li>
                         <li>Maintained a consistent customer experience through the COVID-19 pandemic.</li>
@@ -124,7 +124,7 @@ function Resume() {
                     </div>
                     <div className="resume-dates">
                         <h5>Haywood County, North Carolina</h5>
-                        <h5>Summers of 2015 – 2019</h5>
+                        <h5>Summers of 2015 - 2019</h5>
                     </div>
                 </div>
                 <div className="resume-job-description">
@@ -161,8 +161,8 @@ function Resume() {
                 <h3 className="resume-headings">Honors & Awards</h3>
                 <hr className="resume-hr" />
 
-                <h4 style={{ fontSize: '2vw', paddingLeft: '50px', marginTop: '30px' }}>Volunteer Scholarship – <span style={{ color: 'grey', fontStyle: 'italic' }} >University of Tennessee Knoxville</span></h4>
-                <h4 style={{ fontSize: '2vw', paddingLeft: '50px', marginTop: '10px' }}>Grand Cooke Honors Program –<span style={{ color: 'grey', fontStyle: 'italic' }} >University of Tennessee Knoxville</span></h4>
+                <h4 style={{ fontSize: '2vw', paddingLeft: '50px', marginTop: '30px' }}>Volunteer Scholarship - <span style={{ color: 'grey', fontStyle: 'italic' }} >University of Tennessee Knoxville</span></h4>
+                <h4 style={{ fontSize: '2vw', paddingLeft: '50px', marginTop: '10px' }}>Grand Cooke Honors Program -<span style={{ color: 'grey', fontStyle: 'italic' }} >University of Tennessee Knoxville</span></h4>
             </div>
 
             <div style={{ display: 'block', height: '200px', width: '100%' }}></div>
