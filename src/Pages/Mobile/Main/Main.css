@@ -39,18 +39,6 @@
 	margin-top: 30px;
 }
 
-#mobile-title-h1 {
-	font-size: 6vw;
-	font-family: 'Pacifico', cursive;
-	text-align: center;
-	color: transparent;
-	background-image: linear-gradient(to right, #e74c3c , #f1c40f,#3498db, #9b59b6);
-	background-size: 400% 400%;
-	background-clip: text;
-	animation:
-	animatedBackground 8s ease infinite;
-}
-
 #mobile-title-grid {
 	display: grid;
 	width: 75%;
@@ -66,12 +54,12 @@
 }
 
 #mobile-title-grid h3 {
-	font-size: 5vw;
+	font-size: 4vw;
 	margin-left: 8px;
 }
 
 #mobile-title-grid-h1 {
-	font-size: 6vw;
+	font-size: 5vw;
 	text-align: center;
 	margin-top: 0;
 	color: var(--accent-color);
