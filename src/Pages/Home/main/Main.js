@@ -1,5 +1,6 @@
 import React from 'react'
 import titleImage from './IMG_3698.JPG'
+import { ReactComponent as Logo } from './welcome.svg';
 import './Main.css';
 
 function Main() {
@@ -9,7 +10,8 @@ function Main() {
                 <div id="title-grid">
                     <div>
                         <div id="title">
-                            <h1 id="title-h1">Welcome</h1>
+                            {/* <h1 id="title-h1">Welcome</h1> */}
+                            <Logo id="welcome" />
                         </div>
 
                         <h1 id="title-grid-h1">My name is Jacob Hawkins.</h1>

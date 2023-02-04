@@ -2,15 +2,35 @@
 	--line-animation: 2.5s;
 }
 
-/* #title { */
-	/* text-align: center; */
-/* } */
+#title {
+	color: white;
+}
 
 #title-center-grid {
 	display: flex;
 	width: 100%;
 	justify-content: center;
 	margin-top: 150px;
+}
+
+#welcome {
+	width: 25vw;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.path {
+	stroke-width: 10;
+	stroke-dasharray: 1377;
+	stroke-dashoffset: 1377;
+	animation: dash 3s linear forwards;
+}
+  
+@keyframes dash {
+	to {
+		stroke-dashoffset: 0;
+	}
 }
 
 #title-h1 {
@@ -30,6 +50,7 @@
 	width: 75%;
 	grid-template-columns: 50% 50%;
 	/* grid-column: auto; */
+	justify-content: center;
 	gap: 15px;
 }
 
