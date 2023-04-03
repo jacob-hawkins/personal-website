@@ -49,8 +49,11 @@
 }
 
 #mobile-title-grid img {
-	width: 100%;
+	width: 60%;
 	height: auto;
+	display: block;
+	margin-left: 50%;
+	transform: translate(-50%);
 }
 
 #mobile-title-grid h3 {

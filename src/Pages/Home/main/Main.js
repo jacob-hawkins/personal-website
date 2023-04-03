@@ -1,5 +1,5 @@
 import React from 'react'
-import titleImage from './IMG_3698.JPG'
+import titleImage from './IMG_9008.jpg'
 import { ReactComponent as Logo } from './welcome.svg';
 import './Main.css';
 

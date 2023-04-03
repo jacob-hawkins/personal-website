@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import titleImage from './IMG_3698.JPG'
+import titleImage from './IMG_9008.jpg'
 import { ReactComponent as Logo } from './welcome.svg';
 import './Main.css'
 

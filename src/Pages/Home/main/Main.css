@@ -55,8 +55,9 @@
 }
 
 #title-grid img {
-	width: 100%;
+	width: clamp(200px, 50%, 400px);
 	height: auto;
+	margin-left: 100px;
 }
 
 #title-grid-h1 {
