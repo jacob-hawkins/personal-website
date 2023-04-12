@@ -26,7 +26,7 @@ function Resume() {
                     <h4 className="mobile-resume-subtitles"><span className="italics">Bachelor of Science</span></h4>
                     <h4 className="mobile-resume-edu-description">Major: <span className="italics">Computer Science</span></h4>
                     <h4 className="mobile-resume-edu-description">Graduation: <span className="italics">May 2024</span></h4>
-                    <h4 className="mobile-resume-edu-description">Involvement: <span className="italics">UTK Roundnet Club, UTK WebDev</span></h4>
+                    <h4 className="mobile-resume-edu-description">Involvement: <span className="italics">UTK Roundnet Club</span></h4>
                 </div>
 
                 <div className="mobile-edu-subheading-block">
@@ -47,22 +47,6 @@ function Resume() {
 
                 <div className="mobile-resume-grid">
                     <div>
-                        <h4 className="mobile-resume-subheading">Knox County Schools</h4>
-                        <h4 className="mobile-resume-subtitles"><span className="italics">Summer Bridge Program Tutor</span></h4>
-                    </div>
-                    <div className="mobile-resume-dates">
-                        <h5>Knoxville, Tennessee</h5>
-                        <h5>June 2022</h5>
-                    </div>
-                </div>
-                <div className="mobile-resume-job-description">
-                    <ul>
-                        <li> A one-month summer school program in which I tutored small groups of students, reinforcing math concepts at a rising <br /> 6th, 7th, and 8th-grade level.</li>
-                    </ul>
-                </div>
-
-                <div className="mobile-resume-grid">
-                    <div>
                         <h4 className="mobile-resume-subheading">VolShop</h4>
                         <h4 className="mobile-resume-subtitles"><span className="italics">Order Fulfillment Associate</span></h4>
                     </div>
@@ -75,6 +59,22 @@ function Resume() {
                     <ul>
                         <li>Responsible for the finding of items and fulfilling of online orders from the physical store location.</li>
                         <li>Packaging and organizing orders for faster and more efficient processing to allow quicker order turn around.</li>
+                    </ul>
+                </div>
+
+                <div className="mobile-resume-grid">
+                    <div>
+                        <h4 className="mobile-resume-subheading">Knox County Schools</h4>
+                        <h4 className="mobile-resume-subtitles"><span className="italics">Summer Bridge Program Tutor</span></h4>
+                    </div>
+                    <div className="mobile-resume-dates">
+                        <h5>Knoxville, Tennessee</h5>
+                        <h5>June 2022</h5>
+                    </div>
+                </div>
+                <div className="mobile-resume-job-description">
+                    <ul>
+                        <li> A one-month summer school program in which I tutored small groups of students, reinforcing math concepts at a rising <br /> 6th, 7th, and 8th-grade level.</li>
                     </ul>
                 </div>
 

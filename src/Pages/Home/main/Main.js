@@ -16,7 +16,7 @@ function Main() {
 
                         <h1 id="title-grid-h1">My name is Jacob Hawkins.</h1>
                         <h3>
-                            I am a computer science major at the University of Tennessee. I am a part of the Grand Cooke Engineering    Honors Program and will soon be working with the upcoming web development club here at UT.
+                            I am a computer science major at the University of Tennessee and am a part of the Grand Cooke Engineering Honors Program. I enjoy offroading my 2008 Jeep Wrangler, playing spikeball with friends, and hiking.
                         </h3>
                     </div>
 
