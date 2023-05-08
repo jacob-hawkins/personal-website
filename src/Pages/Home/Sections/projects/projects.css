@@ -1,0 +1,27 @@
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.projects-title {
+    font-size: 60px;
+    text-align: center;
+    margin: 50px;
+}
+
+.projects-hr {
+    width: 75%;
+}
+
+.projects-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
