@@ -1,5 +1,5 @@
 # personal-website
-![website image](website-img.jpg)
+![website image](website_img.jpg)
 
 Welcome to my Personal Site! I built this using the ReactJS JavaScript Framework. Through this project I have learned the basics of the ReactJS Framework and created a user interface that is well-designed, simple to use, and shows a little bit about me. I hope you enjoy!
 
