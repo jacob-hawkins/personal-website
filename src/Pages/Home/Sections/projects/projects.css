@@ -26,11 +26,15 @@
     flex-wrap: wrap;
 }
 
+.spikestat {
+    transition: 1s;
+}
+
 .spikestathover {
     margin-left: 100px;
     margin-top: -142px;
 }
 
 .cryptmsg {
-    margin-top: 50px;
+    margin-top: 25px;
 }

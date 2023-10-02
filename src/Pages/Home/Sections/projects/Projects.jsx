@@ -27,20 +27,17 @@ export default function Projects() {
                     </div>
                 )}
 
-                {/* {!cryptShown && (
-                    <div onMouseEnter={() => setCryptShown(true)}>
-                        <CryptMSGFrame />
-                    </div>
-                )}
-                {cryptShown && (
-                    <div onMouseLeave={() => setCryptShown(false)} className='cryptmsghover'>
-                        <CryptMSG />
-                    </div>
-                )} */}
-
                 <div className='cryptmsg'>
-                    <CryptMSG />
-                    {/* <CryptMSGFrame /> */}
+                    {!cryptShown && (
+                        <div onMouseEnter={() => setCryptShown(true)}>
+                            <CryptMSGFrame />
+                        </div>
+                    )}
+                    {cryptShown && (
+                        <div onMouseLeave={() => setCryptShown(false)} className='cryptmsghover'>
+                            <CryptMSG />
+                        </div>
+                    )}
                 </div>
 
                 <div className='projects-list'>
