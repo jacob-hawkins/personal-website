@@ -25,3 +25,12 @@
     gap: 25px;
     flex-wrap: wrap;
 }
+
+.spikestathover {
+    margin-left: 100px;
+    margin-top: -142px;
+}
+
+.cryptmsg {
+    margin-top: 50px;
+}
