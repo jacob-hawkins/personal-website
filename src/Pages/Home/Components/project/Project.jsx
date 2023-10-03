@@ -68,7 +68,7 @@ export default function Project({ proj }) {
                             color: 'white',
                         }}>
                         <Typography gutterBottom>{proj.desc}</Typography>
-                        {proj.group == true && (
+                        {proj.group === true && (
                             <Typography gutterBottom>Worked with: {proj.team}</Typography>
                         )}
                     </DialogContent>
