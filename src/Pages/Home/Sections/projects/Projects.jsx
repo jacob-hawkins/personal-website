@@ -1,6 +1,6 @@
 import './projects.css';
-// import Project from '../../Components/project/Project';
-// import { proj } from '../../../../proj-list';
+import Project from '../../Components/project/Project';
+import { proj } from '../../../../proj-list';
 import SpikeStat from './SpikeStat';
 import SpikeStatFrame from './SpikeStatFrame';
 import { useState } from 'react';
@@ -40,11 +40,11 @@ export default function Projects() {
                     )}
                 </div>
 
-                {/* <div className='projects-list'>
+                <div className='projects-list'>
                     {proj.map((p) => (
                         <Project key={p.id} proj={p} />
                     ))}
-                </div> */}
+                </div>
             </div>
         </div>
     );

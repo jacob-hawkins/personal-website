@@ -1,5 +1,5 @@
 .project {
-    border: 1px solid red;
+    background-color: #1e272e;
     border-radius: 10px;
     width: 150px;
     height: 200px;
@@ -8,11 +8,16 @@
     cursor: pointer;
 }
 
+.project:hover {
+    background-color: #485460;
+}
+
 .project-title {
     flex: 6;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 25px;
 }
 
