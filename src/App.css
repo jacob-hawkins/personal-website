@@ -18,4 +18,9 @@ body {
 
 html {
     scroll-behavior: smooth;
-  }
+}
+
+.flex-align {
+    display: flex;
+    align-items: center;
+}

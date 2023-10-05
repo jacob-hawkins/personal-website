@@ -32,6 +32,9 @@ export default function Projects() {
     const [cryptShown, setCryptShown] = useState(false);
     const [open, setOpen] = useState(false);
     const [open2, setOpen2] = useState(false);
+    const spikelang = ['react'];
+    const cryptlang = ['react', 'javascript'];
+    const spikeframe = ['mongodb', 'express', 'node'];
 
     const handleClickOpen = () => {
         setOpen(true);
@@ -99,6 +102,16 @@ export default function Projects() {
                                 Spikeball games and share them with friends. SpikeStat allows users
                                 to post, like, comment, and follow.
                             </Typography>
+                            <div className='tags flex-align'>
+                                {spikelang.map((i) => (
+                                    <p className='tag' id={i}>
+                                        {i}
+                                    </p>
+                                ))}
+                                {spikeframe.map((i) => (
+                                    <p className='frame'>{i}</p>
+                                ))}
+                            </div>
                         </DialogContent>
                         <DialogActions
                             sx={{
@@ -176,6 +189,13 @@ export default function Projects() {
                             <Typography gutterBottom>
                                 Worked with: Alex Austin, Dylan Lewis, Riley Crockett, Kijan Daniel
                             </Typography>
+                            <div className='tags flex-align'>
+                                {cryptlang.map((i) => (
+                                    <p className='tag' id={i}>
+                                        {i}
+                                    </p>
+                                ))}
+                            </div>
                         </DialogContent>
                         <DialogActions
                             sx={{
@@ -195,6 +215,18 @@ export default function Projects() {
                                         },
                                     }}>
                                     View on GitHub
+                                </Button>
+                            </a>
+                            <a href='https://cryptmsg.net/' target='_blank' rel='noreferrer'>
+                                <Button
+                                    sx={{
+                                        backgroundColor: '#1e272e',
+                                        color: 'white',
+                                        '&:hover': {
+                                            backgroundColor: '#32414d',
+                                        },
+                                    }}>
+                                    View Live Site
                                 </Button>
                             </a>
                         </DialogActions>

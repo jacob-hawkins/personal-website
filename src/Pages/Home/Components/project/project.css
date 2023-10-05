@@ -27,3 +27,31 @@
     align-items: center;
     justify-content: center;
 }
+
+.tags {
+    gap: 5px;
+    cursor: default;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 100px;
+    width: fit-content;
+    text-align: center;
+}
+
+.frame {
+    padding: 5px 10px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #858585;
+    text-align: center;
+}
+
+#react {
+    background-color: #e74c3c;
+}
+
+#javascript {
+    background-color: #3498db;
+}

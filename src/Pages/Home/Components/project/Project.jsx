@@ -71,6 +71,18 @@ export default function Project({ proj }) {
                         {proj.group === true && (
                             <Typography gutterBottom>Worked with: {proj.team}</Typography>
                         )}
+                        <Typography gutterBottom></Typography>
+                        {/* <Typography gutterBottom></Typography> */}
+                        <div className='tags flex-align'>
+                            {proj.lang.map((i) => (
+                                <p className='tag' id={i}>
+                                    {i}
+                                </p>
+                            ))}
+
+                            {proj.frame != null &&
+                                proj.frame.map((i) => <p className='frame'>{i}</p>)}
+                        </div>
                     </DialogContent>
                     <DialogActions
                         sx={{
