@@ -105,7 +105,10 @@ export default function Projects() {
                                 backgroundColor: '#485460',
                                 color: 'white',
                             }}>
-                            <a href='https://github.com/jacob-hawkins/spikestat' target='_blank'>
+                            <a
+                                href='https://github.com/jacob-hawkins/spikestat'
+                                target='_blank'
+                                rel='noreferrer'>
                                 <Button
                                     sx={{
                                         backgroundColor: '#1e272e',
@@ -179,7 +182,10 @@ export default function Projects() {
                                 backgroundColor: '#485460',
                                 color: 'white',
                             }}>
-                            <a href='https://github.com/utk-cs340-fall22/CryptMSG' target='_blank'>
+                            <a
+                                href='https://github.com/utk-cs340-fall22/CryptMSG'
+                                target='_blank'
+                                rel='noreferrer'>
                                 <Button
                                     sx={{
                                         backgroundColor: '#1e272e',
