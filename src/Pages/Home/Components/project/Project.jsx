@@ -78,7 +78,7 @@ export default function Project({ proj }) {
                             color: 'white',
                         }}>
                         {proj.github != null && (
-                            <a href={proj.github}>
+                            <a href={proj.github} target='_blank'>
                                 <Button
                                     sx={{
                                         backgroundColor: '#1e272e',
@@ -92,7 +92,7 @@ export default function Project({ proj }) {
                             </a>
                         )}
                         {proj.live != null && (
-                            <a href={proj.live}>
+                            <a href={proj.live} target='_blank'>
                                 <Button
                                     sx={{
                                         backgroundColor: '#1e272e',
