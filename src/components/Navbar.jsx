@@ -22,7 +22,6 @@ function Navbar() {
                     </li>
                 </div>
             </ul>
-            <hr />
         </div>
     );
 }
