@@ -1,3 +1,5 @@
 @use '../abstracts' as *;
 
 @forward './Navbar.module.scss';
+@forward './Header.module.scss';
+@forward './Projects.module.scss';
