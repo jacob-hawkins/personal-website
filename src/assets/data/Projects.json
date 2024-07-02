@@ -1,26 +1,54 @@
 [
-    {
-        "id": 0,
-        "title": "Twitter Phishing Site",
-        "date": "Spring 2023",
-        "github": "https://github.com/jacob-hawkins/Projects/tree/main/phishing-site",
-        "live": "https://twitter-phishing.jacobhawkins.net",
-        "description": "A group final project for CS366: Introduction to Cybersecurity. This is a clone of the Twitter login system meant as a Phishing attack aimed to gain access to the victims twitter account without their knowledge. The victim is prompted to input their username and password and in completion would be redirected back to the real Twitter login page, perhaps causing them to think the login failed and would try again. This demo only alerts the user their username and password and does nothing more.",
-        "group": true,
-        "team": ["Riley Crockett", "Dylan Lewis"],
-        "languages": ["react"],
-        "frameworks": []
-    },
-    {
-        "id": 1,
-        "title": "CS452 Final Project",
-        "date": "Spring 2023",
-        "github": "https://github.com/jacob-hawkins/Projects/tree/main/finalp",
-        "live": "https://graphics-final.jacobhawkins.net",
-        "description": "My final project for CS452: Computer Graphics. I created a scene using OpenGL and Blender.",
-        "group": false,
-        "team": [],
-        "languages": ["javascript"],
-        "frameworks": ["OpenGL"]
-    }
+    [
+        {
+            "id": 0,
+            "title": "SpikeStat",
+            "date": "April 2023 - August 2023",
+            "github": "https://github.com/jacob-hawkins/spikestat",
+            "live": "",
+            "description": "SpikeStat is a social media site that allows users to track Spikeball games and share them with friends. SpikeStat allows users to post, like, comment, and follow.",
+            "group": false,
+            "team": [],
+            "languages": ["React"],
+            "frameworks": ["MongoDB", "Express.js", "Node.js"]
+        },
+        {
+            "id": 1,
+            "title": "CryptMSG",
+            "date": "August 2022 - December 2022",
+            "github": "https://github.com/utk-cs340-fall22/CryptMSG",
+            "live": "",
+            "description": "CryptMSG is a messaging platform that allows users to sign in and message other users.",
+            "group": true,
+            "team": ["Alex Austin", "Dylan Lewis", "Riley Crockett", "Kijan Daniel"],
+            "languages": ["React", "Javascript"],
+            "frameworks": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "title": "Twitter Phishing Site",
+            "date": "Spring 2023",
+            "github": "https://github.com/jacob-hawkins/Projects/tree/main/phishing-site",
+            "live": "https://twitter-phishing.jacobhawkins.net",
+            "description": "A group final project for CS366: Introduction to Cybersecurity. This is a clone of the Twitter login system meant as a Phishing attack aimed to gain access to the victims twitter account without their knowledge. The victim is prompted to input their username and password and in completion would be redirected back to the real Twitter login page, perhaps causing them to think the login failed and would try again. This demo only alerts the user their username and password and does nothing more.",
+            "group": true,
+            "team": ["Riley Crockett", "Dylan Lewis"],
+            "languages": ["React"],
+            "frameworks": []
+        },
+        {
+            "id": 1,
+            "title": "CS452 Final Project",
+            "date": "Spring 2023",
+            "github": "https://github.com/jacob-hawkins/Projects/tree/main/finalp",
+            "live": "https://graphics-final.jacobhawkins.net",
+            "description": "My final project for CS452: Computer Graphics. I created a scene using OpenGL and Blender.",
+            "group": false,
+            "team": [],
+            "languages": ["Javascript"],
+            "frameworks": ["OpenGL"]
+        }
+    ]
 ]
