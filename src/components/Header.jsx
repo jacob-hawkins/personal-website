@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Welcome } from '../assets/welcome.svg';
+import { ReactComponent as Welcome } from '../assets/svg/welcome.svg';
 import headshot from '../assets/images/IMG_4093.JPG';
 import styles from '../styles/components/Header.module.scss';
 
