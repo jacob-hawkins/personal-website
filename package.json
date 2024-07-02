@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "animate",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +17,19 @@
     "react-router-dom": "^6.2.1",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.0",
+=======
+  "name": "personal-website-new",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "sass": "^1.77.4",
+>>>>>>> personal-website-new/main
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,8 +55,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "file-loader": "^6.2.0"
+=======
+>>>>>>> personal-website-new/main
   }
 }
