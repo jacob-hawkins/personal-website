@@ -1,0 +1,80 @@
+@use '../abstracts/' as *;
+
+.header {
+    @include flex-center;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 5rem;
+
+    .wrapper {
+        display: flex;
+        width: 75%;
+        max-width: 1200px;
+        height: 75%;
+        flex-direction: row;
+        // outline: 1px solid red;
+
+        @include lt-md {
+            flex-direction: column-reverse;
+            gap: 2rem;
+        }
+
+        .left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+
+            svg {
+                width: 25rem;
+                height: auto;
+                display: block;
+
+                path {
+                    stroke-width: 10;
+                    stroke-dasharray: 1377;
+                    stroke-dashoffset: 1377;
+                    animation: dash 3s linear forwards;
+                }
+            }
+
+            @keyframes dash {
+                to {
+                    stroke-dashoffset: 0;
+                }
+            }
+
+            h1 {
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            @include lt-sm {
+                svg {
+                    width: 20rem;
+                }
+
+                .wrapper {
+                    width: 90%;
+                }
+            }
+        }
+
+        .right {
+            flex: 1;
+            @include flex-center;
+            align-items: center;
+
+            img {
+                height: clamp(200px, 70vh, 500px); /* Set the height using clamp */
+                width: auto; /* Maintain aspect ratio */
+            }
+        }
+    }
+}
