@@ -1,16 +1,16 @@
-import React from 'react'
-import Contact from './Contact/Contact'
-import Main from './Main/Main'
-import Resume from './Resume/Resume'
+import React from 'react';
+import Main from './Main/Main';
+import Contact from './Contact/Contact';
+import Projects from './Projects/Projects';
 
 function Index() {
     return (
         <div>
             <Main />
-            <Resume />
+            <Projects />
             <Contact />
         </div>
-    )
+    );
 }
 
-export default Index
+export default Index;

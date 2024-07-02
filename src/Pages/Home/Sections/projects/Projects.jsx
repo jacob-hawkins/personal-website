@@ -69,6 +69,22 @@ export default function Projects() {
                     </div>
                 )}
 
+                <div className='cryptmsg'>
+                    {!cryptShown && (
+                        <div onMouseEnter={() => setCryptShown(true)}>
+                            <CryptMSGFrame />
+                        </div>
+                    )}
+                    {cryptShown && (
+                        <div
+                            onMouseLeave={() => setCryptShown(false)}
+                            className='cryptmsghover'
+                            onClick={handleClickOpen2}>
+                            <CryptMSG />
+                        </div>
+                    )}
+                </div>
+
                 <div>
                     <BootstrapDialog
                         onClose={handleClose}
@@ -135,22 +151,6 @@ export default function Projects() {
                             </a>
                         </DialogActions>
                     </BootstrapDialog>
-                </div>
-
-                <div className='cryptmsg'>
-                    {!cryptShown && (
-                        <div onMouseEnter={() => setCryptShown(true)}>
-                            <CryptMSGFrame />
-                        </div>
-                    )}
-                    {cryptShown && (
-                        <div
-                            onMouseLeave={() => setCryptShown(false)}
-                            className='cryptmsghover'
-                            onClick={handleClickOpen2}>
-                            <CryptMSG />
-                        </div>
-                    )}
                 </div>
 
                 <div>
