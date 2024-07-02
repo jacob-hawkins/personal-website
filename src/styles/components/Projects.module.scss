@@ -1,7 +1,19 @@
+@use '../abstracts/' as *;
+
 .projects {
-    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    margin: 125px 0;
 
     h1 {
         text-align: center;
+    }
+
+    svg {
+        height: auto; /* Maintain aspect ratio */
+        width: clamp(350px, 40vw, 700px); /* Set the height using clamp */
     }
 }
